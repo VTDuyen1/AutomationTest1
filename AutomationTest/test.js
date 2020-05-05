@@ -157,20 +157,20 @@ describe("Selenium Test web", function () {
 		 	});
 		});
 	});
-	// it("Verify how many reviews for IPHONE: ", function () {
-	// 	let MainWindow=driver.getWindowHandle();
- //        driver.getAllWindowHandles().then(function(handles){
- //    		driver.switchTo().window(handles[1]).then(function(){
-	// 			setTimeout(function(){
-	// 				let b = driver.findElement(webdriver.By.xpath('//*[@id="product_comparison"]/tbody[1]/tr[1]/td[2]/div[1]/span/a'));
-	// 				// b.getText();
-	// 				console.log("Number of IPHONE reviewed : " + b.getText());
-	// 			}, 25000);
-	// 	 	});
-	// 	});
- //        // driver.switchTo().window(MainWindow);
+	it("Verify how many reviews for IPHONE: ", function () {
+		let MainWindow=driver.getWindowHandle();
+        driver.getAllWindowHandles().then(function(handles){
+    		driver.switchTo().window(handles[1]).then(function(){
+				setTimeout(function(){
+					let b = driver.findElement(webdriver.By.xpath('//*[@id="product_comparison"]/tbody[1]/tr[1]/td[2]/div[1]/span/a'));
+					// b.getText();
+					console.log("Number of IPHONE reviewed : " + b.getText());
+				}, 25000);
+		 	});
+		});
+        // driver.switchTo().window(MainWindow);
 
-	// });
+	});
 	
 });
 
