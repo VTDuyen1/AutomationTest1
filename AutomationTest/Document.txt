@@ -1,0 +1,8 @@
+First, your PC must be install Chrome
+1. Install mocha: npm install -g mocha
+2. Install selenium driver: npm install -g selenium-webdriver
+3. Install chrome driver: npm install -g chromedriver
+4. Install module fs: npm install -g fs
+
+In path to file test.js : mocha test.js
+

@@ -1,0 +1,35 @@
+The site to test: http://live.demoguru99.com/index.php
+
+Manual Test: Define all test cases to cover Register and Login functions.
+
+Note: You can choose a template you like but we expect to have well-documented.
+
+
+
+Automation Test: Implement test script follows steps as below:
+
+Go to http://live.demoguru99.com/index.php
+
+Register an account
+
+Login to account
+
+Verify login successfully
+
+Go to Mobile page
+
+Click ‘Add to Compare’ of SONY XPERIA
+
+Click ‘Add to Compare’ of IPHONE
+
+Click ‘Compare’ button
+
+Verify how many reviews for IPHONE
+
+After finish, please upload your scripts on a public repository (Eg: Github, Gitlab,...) and write the guide for us to run your automation test scripts
+
+
+
+Note: You can use any programming language you like.
+
+Bonus: Apply POM model, design patterns.
